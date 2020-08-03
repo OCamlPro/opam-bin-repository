@@ -11,6 +11,7 @@ depends: [
   "dune" {>= "2.0" build}
   "ez-cmdliner" {>= "0.1.0" build}
   "ez-config" {>= "0.1.0" build}
+  "ez-file" {>= "0.1.1" build}
   "re" {>= "1.0" build}
   "opam-file-format" {>= "0.0" build}
 ]
