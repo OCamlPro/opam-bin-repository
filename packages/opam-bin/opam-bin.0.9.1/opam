@@ -32,5 +32,5 @@ build: [
 dev-repo: "git+https://github.com/ocamlpro/opam-bin.git"
 url {
     src: "https://github.com/OCamlPro/opam-bin/archive/v0.9.1.tar.gz"
-    checksum: [ "sha256=fcd5f3e30dda413defbb74c97b69723f54d2a8ede973539afddd4abeba1a6a42" ]
+    checksum: [ "sha256=9a0923ce5060e90378af7fe8c3f11d41ac3eb9d1339b4d5e3d8b16fdb518e2d8" ]
 }

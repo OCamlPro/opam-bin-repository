@@ -18,7 +18,7 @@ rm -f output
 echo $CHECKSUM
 
 rm -rf packages/opam-bin/opam-bin.$VERSION
-cp -dpR attic/opam-bin.0.1.0 packages/opam-bin/opam-bin.$VERSION
+cp -dpR attic/opam-bin.template packages/opam-bin/opam-bin.$VERSION
 sed -i "s|v0.1.0|v$VERSION|" packages/opam-bin/opam-bin.$VERSION/opam
 sed -i "s|619dfd31eb5c97e34eb75506cc3b63f3baf035fdac557e57943bb10b37047d87|$CHECKSUM|" packages/opam-bin/opam-bin.$VERSION/opam
 
